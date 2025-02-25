@@ -52,6 +52,7 @@ fun ArticleStructure(title: String,
                 modifier: Modifier = Modifier
 ) {
     Column(modifier) {
+        Image(painter = articleBannerImage, contentDescription = null)
         Text(
             text = title,
             fontSize = 24.sp,
