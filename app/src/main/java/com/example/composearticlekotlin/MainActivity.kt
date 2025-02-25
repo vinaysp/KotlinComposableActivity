@@ -43,7 +43,12 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun ArticleText(title: String, firstText: String, secondText: String, fontSize: TextUnit = 16.sp, modifier: Modifier = Modifier) {
+fun ArticleText(title: String,
+                firstText: String,
+                secondText: String,
+                fontSize: TextUnit = 16.sp,
+                modifier: Modifier = Modifier
+) {
     Column(modifier) {
         Text(
             text = title,
