@@ -63,8 +63,7 @@ fun ArticleStructure(title: String,
                     top = 16.dp)
         )
         Text(
-            text = firstText,
-            fontSize = fontSize,
+            text = firstParagraph,
             textAlign = TextAlign.Justify,
             modifier = Modifier
                 .padding(start = 16.dp,
@@ -72,8 +71,7 @@ fun ArticleStructure(title: String,
 
         )
         Text(
-            text = secondText,
-            fontSize = fontSize,
+            text = secondParagraph,
             textAlign = TextAlign.Justify,
             modifier = Modifier
                 .padding(start = 16.dp,
