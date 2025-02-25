@@ -99,11 +99,11 @@ fun ArticleStructure(title: String,
 @Composable
 fun ArticlePreview() {
     ComposeArticleKotlinTheme {
-        ArticleBanner()
-        ArticleText(
+        ArticleStructure(
             stringResource(R.string.article_title),
             stringResource(R.string.article_first_paragraph),
-            stringResource(R.string.article_second_paragraph)
+            stringResource(R.string.article_second_paragraph),
+            articleBannerImage = painterResource(R.drawable.bg_compose_background)
         )
     }
 
