@@ -45,10 +45,10 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun ArticleText(title: String,
-                firstText: String,
-                secondText: String,
-                fontSize: TextUnit = 16.sp,
+fun ArticleStructure(title: String,
+                firstParagraph: String,
+                secondParagraph: String,
+                articleBannerImage: Painter,
                 modifier: Modifier = Modifier
 ) {
     Column(modifier) {
