@@ -33,8 +33,9 @@ class MainActivity : ComponentActivity() {
 //                    ArticleBanner()
                     ArticleStructure(
                         title = stringResource(R.string.article_title),
-                        firstText = stringResource(R.string.article_first_paragraph),
-                        secondText = stringResource(R.string.article_second_paragraph),
+                        firstParagraph = stringResource(R.string.article_first_paragraph),
+                        secondParagraph = stringResource(R.string.article_second_paragraph),
+                        articleBannerImage = painterResource(R.drawable.bg_compose_background),
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
