@@ -60,7 +60,7 @@ fun ArticleStructure(title: String,
                 .padding(start = 16.dp,
                     end = 16.dp,
                     bottom = 16.dp,
-                    top = 130.dp)
+                    top = 16.dp)
         )
         Text(
             text = firstText,
