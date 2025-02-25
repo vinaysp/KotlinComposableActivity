@@ -30,7 +30,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeArticleKotlinTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-//                    ArticleBanner()
                     ArticleStructure(
                         title = stringResource(R.string.article_title),
                         firstParagraph = stringResource(R.string.article_first_paragraph),
@@ -83,17 +82,6 @@ fun ArticleStructure(title: String,
     }
 }
 
-
-//@Composable
-//fun ArticleBanner(modifier: Modifier = Modifier){
-//    val banner = painterResource(R.drawable.bg_compose_background)
-//    Box(modifier.fillMaxSize()) {
-//        Image(
-//            painter = banner,
-//            contentDescription = null
-//        )
-//    }
-//}
 
 @Preview(showBackground = true)
 @Composable
