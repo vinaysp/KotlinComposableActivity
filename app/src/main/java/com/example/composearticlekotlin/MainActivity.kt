@@ -46,7 +46,7 @@ fun ArticleText(title: String, firstText: String, secondText: String, fontSize: 
     Column(modifier) {
         Text(
             text = title,
-            fontSize = fontSize,
+            fontSize = 24.sp,
             modifier = Modifier
                 .padding(start = 16.dp,
                     end = 16.dp,
