@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeArticleKotlinTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    ArticleBanner()
                     ArticleText(
                         title = "Jetpack Compose tutorial",
                         fontSize = 24.sp,
